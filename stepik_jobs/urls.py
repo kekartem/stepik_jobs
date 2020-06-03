@@ -26,4 +26,3 @@ urlpatterns = [
     path('vacancies/cat/<str:code>/', CategoryView.as_view()),
     path('companies/<int:id>/', CompanyView.as_view()),
 ]
-
